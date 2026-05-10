@@ -9,7 +9,7 @@ args = ["pnpm", "store", "prune"]
 env = { "CI" = "true" }
 
 [workflows]
-runButton = "Run Python"
+runButton = "Project"
 
 [[workflows.workflow]]
 name = "Run Python"
@@ -76,5 +76,9 @@ externalPort = 8080
 [[ports]]
 localPort = 8081
 externalPort = 80
+
+[[ports]]
+localPort = 18709
+externalPort = 3000
 
 [nix]
