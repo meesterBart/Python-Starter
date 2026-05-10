@@ -6,11 +6,4 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export * from "./gameSession";
-export * from "./gameSessionStatus";
-export * from "./guessInput";
-export * from "./guessResult";
-export * from "./guessResultHint";
-export * from "./guessResultStatus";
 export * from "./healthStatus";
-export * from "./leaderboardEntry";
