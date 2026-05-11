@@ -71,7 +71,7 @@ task = "workflow.run"
 args = "Run Python"
 
 [agent]
-stack = "PNPM_WORKSPACE"
+stack = "BEST_EFFORT_FALLBACK"
 expertMode = true
 
 [postMerge]
@@ -91,3 +91,4 @@ localPort = 18709
 externalPort = 3000
 
 [nix]
+channel = "stable-25_05"
